@@ -1,0 +1,35 @@
+.no-js .prev,
+.no-js .next {
+  display: none;
+}
+
+.no-js .slider-list-wrap {
+  overflow: initial;
+}
+
+.no-js .slider-list {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.no-js .slider-item {
+  scroll-snap-align: center;
+}
+
+.slider-list-wrap {
+  overflow: hidden;
+}
+
+.slider-list {
+  display: flex;
+}
+
+
+.slider-item {
+  flex-basis: 100%;
+  flex-shrink: 0;
+}
+
+.half-item {
+  flex-basis: 50%;
+}
