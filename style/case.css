@@ -29,6 +29,18 @@
   width: calc(50% - 24px);
 }
 
+.case-video {
+  width: 80vw;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+video {
+  display: block;
+}
+
 @media screen and (max-width: 600px) {
 
   .case-grid-2-images-column-left {
