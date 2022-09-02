@@ -27,6 +27,8 @@ header {
 }
 
 .conteiner a {
+  padding 8px;
+  backgrounf-color: #fff;
   display: block;
 }
 
